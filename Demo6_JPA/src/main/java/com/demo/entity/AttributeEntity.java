@@ -13,22 +13,19 @@ public class AttributeEntity {
     @Column(name = "name")
     private String name;
 
+
     @ManyToMany(fetch = FetchType.LAZY,mappedBy = "attributes")
     private List<ProductEntity> products;
 
-    public AttributeEntity(int id, String name, List<ProductEntity> products) {
-        this.id = id;
-        this.name = name;
+    public AttributeEntity() {
+    }
+
+    public List<ProductEntity> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<ProductEntity> products) {
         this.products = products;
-    }
-
-    public AttributeEntity(){
-
-    }
-
-    public AttributeEntity(int id, String name) {
-        this.id = id;
-        this.name = name;
     }
 
     public int getId() {

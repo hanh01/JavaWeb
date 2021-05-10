@@ -20,40 +20,42 @@ public class HomeServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //insertDB();
-        //deleteDB();
         List<ProductEntity> products = getAllProduct();
         request.setAttribute("products", products);
         request.getRequestDispatcher("index.jsp").forward(request, response);
     }
 
     private List<ProductEntity> getAllProduct() {
-        return dao.getAllProduct();
-    }
-
-    private void insertDB(){
-        for (int i = 4; i < 10; i++) {
-            ProductEntity product = new ProductEntity();
-            product.setName("Iphone" + i);
-            product.setPrice(1000 +i);
-            product.setQuantity(5+i);
-            product.setCategoryId(1);
-            dao.insertProduct(product);
+        List<ProductEntity> products = dao.getAllProduct();
+        for(ProductEntity p : products){
+            System.out.println("Product :" + p.getName() + "category :" + p.getCategory().getName());
         }
+        return products;
     }
 
-    private void updateDB() {
-        ProductDao dao = new ProductDao();
-        ProductEntity productEntity = new ProductEntity();
-        productEntity.setId(1);
-        productEntity.setName("Iphone X");
-        productEntity.setQuantity(100);
-        productEntity.setPrice(800);
-        dao.updateProduct(productEntity);
-    }
+//    private void insertDB(){
+//        for (int i = 4; i < 10; i++) {
+//            ProductEntity product = new ProductEntity();
+//            product.setName("Iphone" + i);
+//            product.setPrice(1000 +i);
+//            product.setQuantity(5+i);
+//            product.setCategoryId(1);
+//            dao.insertProduct(product);
+//        }
+//    }
 
-    private void deleteDB() {
-        ProductDao dao = new ProductDao();
-        dao.deleteProduct(34);
-    }
+//    private void updateDB() {
+//        ProductDao dao = new ProductDao();
+//        ProductEntity productEntity = new ProductEntity();
+//        productEntity.setId(1);
+//        productEntity.setName("Iphone X");
+//        productEntity.setQuantity(100);
+//        productEntity.setPrice(800);
+//        dao.updateProduct(productEntity);
+//    }
+//
+//    private void deleteDB() {
+//        ProductDao dao = new ProductDao();
+//        dao.deleteProduct(34);
+//    }
 }

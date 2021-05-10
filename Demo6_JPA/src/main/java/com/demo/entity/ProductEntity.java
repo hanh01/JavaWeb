@@ -24,7 +24,19 @@ public class ProductEntity {
     @Column(name = "categoryId")
     private int categoryId;
 
-    public ProductEntity(){}
+    @ManyToOne()
+    @JoinColumn(name = "categoryId", insertable = false, updatable = false)
+    private CategoryEntity category;
+
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(name = "product_attribute",
+            joinColumns = @JoinColumn(name = "productId"),
+            inverseJoinColumns = @JoinColumn(name = "attributeId")
+    )
+    private List<AttributeEntity> attributes;
+
+    public ProductEntity() {
+    }
 
     public ProductEntity(int id, String name, int price, int quantity, int categoryId) {
         this.id = id;
@@ -34,15 +46,6 @@ public class ProductEntity {
         this.categoryId = categoryId;
     }
 
-    @ManyToOne()
-    @JoinColumn(name = "categoryId",insertable = false,updatable = false)
-    private CategoryEntity category;
-
-    @ManyToMany(fetch = FetchType.LAZY)
-    @JoinTable(name = "product_attribute",
-    joinColumns = @JoinColumn(name = "productId"),
-    inverseJoinColumns =  @JoinColumn(name = "id"))
-    private List<AttributeEntity> attributes;
 
     public List<AttributeEntity> getAttributes() {
         return attributes;

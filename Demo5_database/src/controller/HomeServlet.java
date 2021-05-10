@@ -33,7 +33,7 @@ public class HomeServlet extends HttpServlet {
 
     protected String insertProduct(){
         Product p = new Product();
-        p.setName("Iphone7");
+        p.setName("Iphone8");
         p.setPrice(20000);
         p.setQuantity(30);
         p.setCategoryID(2);

@@ -14,7 +14,7 @@
 <body>
 <div class="w3-container">
 
-    <table style="width: 50%">
+    <table class="w3-table w3-striped">
         <tr>
             <th>ID</th>
             <th>Name</th>
@@ -29,6 +29,12 @@
                 <td>${p.price}</td>
                 <td>${p.quantity}</td>
                 <td>${p.category.name}</td>
+                <td>
+                    <c:url var="url" value="product">
+                        <c:param name="id" value="${p.id}"/>
+                    </c:url>
+                    <a href="${url}">Detail</a>
+                </td>
             </tr>
         </c:forEach>
 

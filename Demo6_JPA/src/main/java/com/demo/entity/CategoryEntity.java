@@ -16,14 +16,6 @@ public class CategoryEntity {
     @OneToMany(mappedBy = "category",fetch = FetchType.LAZY)
     List<ProductEntity> products;
 
-    public List<ProductEntity> getProducts() {
-        return products;
-    }
-
-    public void setProducts(List<ProductEntity> products) {
-        this.products = products;
-    }
-
     public CategoryEntity() {
 
     }
@@ -32,8 +24,6 @@ public class CategoryEntity {
         this.id = id;
         this.name = name;
     }
-
-
 
     public int getId() {
         return id;

@@ -14,7 +14,7 @@
 <body>
 <div class="w3-container">
 
-    <table style="width: 50%">
+    <table class="w3-table w3-striped">
         <tr>
             <th>ID</th>
             <th>Name</th>

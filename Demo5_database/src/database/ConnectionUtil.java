@@ -6,7 +6,6 @@ import java.sql.SQLException;
 
 public class ConnectionUtil {
     private static Connection connection;
-
     public static synchronized Connection getConnection() {
         String url = "jdbc:mysql://localhost:3306/product";
         String user = "root";
