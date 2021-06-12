@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Index</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--css-->
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+    <!--js-->
+    <script th:src="@{/js/min.js}"></script>
+
+</head>
+<body>
+
+<h1 th:text="${message}"></h1>
+<div class="p-4">
+    <a th:href="@{/adduser}" role="button" class="btn btn-success">AddUser</a>
+    <a th:href="@{/listuser}" role="button" class="btn btn-primary">ListUser</a>
+</div>
+
+</body>
+</html>
