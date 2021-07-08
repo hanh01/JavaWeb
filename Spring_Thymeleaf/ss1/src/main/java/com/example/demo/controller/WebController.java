@@ -22,12 +22,12 @@ public class WebController {
     @Autowired
     UserService userService;
 
-    @GetMapping({"/", "index"})
-    public String index(Model model) {
-        String mes = "Hello Spring boot + thymeleaf";
-        model.addAttribute("message", mes);
-        return "index";
-    }
+//    @GetMapping({"/", "index"})
+//    public String index(Model model) {
+//        String mes = "Hello Spring boot + thymeleaf";
+//        model.addAttribute("message", mes);
+//        return "index";
+//    }
 
     @GetMapping("/adduser")
     public String addUser(Model model) {
@@ -36,7 +36,7 @@ public class WebController {
         return "adduser";
     }
 
-    @GetMapping("/listuser")
+    @GetMapping({"/", "listuser"})
     public ModelAndView listUser(@RequestParam("s") Optional<String> s,Pageable pageable) {
         Page<UserEntity> users;
         if(s.isPresent()){

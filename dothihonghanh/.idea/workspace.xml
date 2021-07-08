@@ -7,15 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77cf0726-fa95-4fe5-9d4d-a17c892d045b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVAWeb_Spring/demo3/src/main/java/com/example/demo2/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAWeb_Spring/demo3/src/main/java/com/example/demo2/controller/WebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAWeb_Spring/demo3/src/main/java/com/example/demo2/entity/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAWeb_Spring/demo3/src/main/java/com/example/demo2/model/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAWeb_Spring/demo3/src/main/java/com/example/demo2/repository/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAWeb_Spring/demo3/src/main/java/com/example/demo2/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAWeb_Spring/demo3/src/main/java/com/example/demo2/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAWeb_Spring/demo3/src/main/webapp/WEB-INF/jsp/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAWeb_Spring/demo3/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/controller/WebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/entity/BookDetailsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/entity/PublisherCatalogsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/repository/BookDetailsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/service/BookDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/service/BookDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/config/CustomGlobalExeptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/dto/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/dto/MapperDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/repository/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/java/com/example/demo/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/java/com/example/demo/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/adduser.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/adduser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/edituser.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/edituser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/listuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/listuser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practice" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3025862" />
@@ -148,6 +159,9 @@
       <workItem from="1621501053036" duration="1154000" />
       <workItem from="1621607319353" duration="164000" />
       <workItem from="1621607577625" duration="38000" />
+      <workItem from="1624101928117" duration="625000" />
+      <workItem from="1624345961421" duration="27000" />
+      <workItem from="1624671233839" duration="184000" />
     </task>
     <servers />
   </component>
@@ -171,10 +185,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1620722255197" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1620997887990">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1624671417498">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1620997887990" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1624671417498" />
     <state width="1024" height="3" key="GridCell.Tab.0.bottom" timestamp="1620727424352">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

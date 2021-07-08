@@ -2,6 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d0f88c-2ef5-4d66-a6a7-abbc8d79d9dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/controller/WebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/entity/BookDetailsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/entity/PublisherCatalogsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/repository/BookDetailsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/service/BookDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/dohonghanh-EAD/src/main/java/com/example/dohonghanh/service/BookDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/config/CustomGlobalExeptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/dto/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/dto/MapperDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/repository/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss8_dto/src/main/java/com/example/ss8/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/java/com/example/demo/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/java/com/example/demo/controller/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/adduser.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/adduser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/edituser.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/edituser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/listuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Thymeleaf/ss1/src/main/resources/templates/listuser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dothihonghanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dothihonghanh/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dohonghanh" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621065144919</updated>
       <workItem from="1621065151192" duration="105000" />
+      <workItem from="1624671458412" duration="22000" />
     </task>
     <servers />
   </component>
@@ -42,10 +63,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="158" key="FileChooserDialogImpl" timestamp="1621065253147">
+    <state x="549" y="158" key="FileChooserDialogImpl" timestamp="1624671479400">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1621065253147" />
+    <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1624671479400" />
     <state x="209" y="78" key="new project wizard" timestamp="1621065255245">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
